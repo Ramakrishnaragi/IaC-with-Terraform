@@ -82,7 +82,7 @@ backend "s3" {
 ![Image](https://github.com/user-attachments/assets/b9096bde-d51f-4586-b815-9dcaf2b05803)
 - Check the terraform state
 ![Image](https://github.com/user-attachments/assets/881a8d15-0acb-4999-aed5-eae4b9ac7022)
-- 	Then do destroy the resources ----> terraform destroy -auto-approve
+- Then do destroy the resources ----> terraform destroy -auto-approve
 ## Benefits:
 - Automate container management with Terraform
   
