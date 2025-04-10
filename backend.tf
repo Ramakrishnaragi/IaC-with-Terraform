@@ -3,8 +3,8 @@
 # This backend configuration instructs Terraform to store its state in an S3 bucket.
  terraform {
 backend "s3" {
-    bucket         = "ansible-proj"  # Name of the S3 bucket where the state will be stored.
-    region         =  "ap-south-1"
+    bucket         = "bucket_name"  # Name of the S3 bucket where the state will be stored.
+    region         = "region_name"
     key            = "terraform.tfstate" # Path within the bucket where the state will be read/written.
     encrypt        = true  # Ensures the state is encrypted at rest in S3.
 }
